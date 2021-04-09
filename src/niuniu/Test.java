@@ -2,19 +2,33 @@ package niuniu;
 
 import java.util.Scanner;
 
+/**
+ * @author jsc
+ * @date 2021/4/8 08 36
+ * @discription ²âÊÔÀà
+ * @Version 1.0
+ */
 public class Test {
 
-	public static void main(String[] args) {
-		System.out.println("**********»¶ÀÖ¶·Å£**********");
-		Scanner input = new Scanner(System.in);
-		System.out.print("ÇëÊäÈëÍæ¼ÒÈËÊı£º");
-		int n = input.nextInt();
-		Room room = new Room(n);
-		room.setPlayers();
-		room.startGame();
-		room.showPlayer();
-		room.showBanker();
-		room.gameResult();
-	}
+    public static void main(String[] args) {
+        System.out.println("**********»¶ÀÖ¶·Å£**********");
+
+        int players = 10;
+        while (true) {
+            Scanner input = new Scanner(System.in);
+            System.out.print("ÇëÊäÈëÍæ¼ÒÈËÊı(×î´ó10ÃûÍæ¼Ò)£º");
+            players = input.nextInt();
+            if (players > 1 && players <= 10) {
+                break;
+            }
+        }
+
+        Room room = new Room(players);
+        room.setPlayers();
+        room.startGame();
+        room.showPlayer();
+        room.showBanker();
+        room.gameResult();
+    }
 
 }

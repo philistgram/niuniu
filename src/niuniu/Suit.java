@@ -1,5 +1,10 @@
 package niuniu;
-
+/**
+ * @author jsc
+ * @date 2021/4/8 08 36
+ * @discription 花色类
+ * @Version 1.0
+ */
 public enum Suit {
 	// 花色按降序排列
 	DIAMOND("方块"),	

@@ -1,5 +1,10 @@
 package niuniu;
-
+/**
+ * @author jsc
+ * @date 2021/4/8 08 36
+ * @discription 玩家类
+ * @Version 1.0
+ */
 public class Player {
 
 	String name;
@@ -9,7 +14,7 @@ public class Player {
 	public Player(String name) {
 		this.name = name;
 	}
-	
+	//5张拿3张共10种取法 牛的取值为五张加起来对10取余
 	public int niuniu() {
 		for (int i = 0; i < myCards.length - 2; i++) {
 			for (int j = i + 1; j < myCards.length - 1; j++) {

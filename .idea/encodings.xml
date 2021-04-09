@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/niuniu/CardsBuilder.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/niuniu/Player.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/niuniu/Room.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/niuniu/Suit.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/niuniu/Test.java" charset="GBK" />
+  </component>
+</project>
